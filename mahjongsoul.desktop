@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Name=雀魂 -じゃんたま-
+Comment=
+Exec=/home/akira/.local/bin/mahjongsoul-electron/node_modules/electron/dist/electron /home/akira/.local/bin/mahjongsoul-electron/index.js
+Icon=/home/akira/.local/bin/mahjongsoul-electron/icon.png
