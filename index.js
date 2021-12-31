@@ -1,4 +1,5 @@
 const electron = require("electron");
+const path = require("path");
 
 electron.app.on("ready", () => {
     "use strict";
@@ -12,6 +13,7 @@ electron.app.on("ready", () => {
             height: 900,
             resizable: false,
             title: "雀魂 -じゃんたま-",
+            icon: path.join(__dirname, "./icon.png"),
         });
         main_window.setMenu(null);
         main_window.loadURL("https://game.mahjongsoul.com/index.html");
