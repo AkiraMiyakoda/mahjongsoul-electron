@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=雀魂 -じゃんたま-
-Comment=雀魂を起動する
-Exec=/opt/mahjongsoul-electron/node_modules/electron/dist/electron /opt/mahjongsoul-electron/index.js
-Icon=/opt/mahjongsoul-electron/icon.png
-Terminal=false
-Type=Application
-Categories=Game;
-Keywords=game;mahjongsoul;
