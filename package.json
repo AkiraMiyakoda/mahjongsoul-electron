@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "MIT",
+  "overrides": {
+    "semver": ">=7.5.3"
+  },
   "dependencies": {
     "electron-store": "^8.1.0"
   },
