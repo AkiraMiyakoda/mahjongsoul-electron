@@ -1,26 +1,24 @@
 {
     "name": "mahjongsoul-electron",
+    "type": "module",
     "version": "1.0.0",
     "description": "Unofficial desktop app of Mahjongsoul",
     "scripts": {
         "start": "electron .",
-        "build": "node ./node_modules/electron-builder/cli.js"
+        "build": "npx @electron/packager . mahjongsoul --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite"
     },
     "author": "Akira Miyakoda",
     "license": "MIT",
-    "overrides": {
-        "semver": ">=7.5.3"
-    },
     "build": {
         "win": {
             "target": "msi"
         }
     },
     "dependencies": {
-        "electron-store": "^10.0.0"
+        "electron-store": "10.0.0"
     },
     "devDependencies": {
-        "electron": "^32.0.2",
-        "electron-builder": "25.0.5"
+        "@electron/packager": "18.3.5",
+        "electron": "32.1.2"
     }
 }
