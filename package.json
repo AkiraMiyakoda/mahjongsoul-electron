@@ -5,7 +5,8 @@
     "description": "Unofficial desktop app of Mahjongsoul",
     "scripts": {
         "start": "electron .",
-        "build": "npx @electron/packager . mahjongsoul --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite"
+        "build": "npx @electron/packager . mahjongsoul --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite",
+        "lint": "eslint index.js"
     },
     "author": "Akira Miyakoda",
     "license": "MIT",
@@ -19,6 +20,7 @@
     },
     "devDependencies": {
         "@electron/packager": "18.4.4",
-        "electron": "38.0.0"
+        "electron": "38.0.0",
+        "eslint": "^9.34.0"
     }
 }
