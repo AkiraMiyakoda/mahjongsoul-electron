@@ -20,7 +20,7 @@
     },
     "devDependencies": {
         "@electron/packager": "19.0.5",
-        "electron": "38.0.0",
+        "electron": "40.4.1",
         "eslint": "^9.39.2"
     }
 }
